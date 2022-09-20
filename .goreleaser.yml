@@ -6,11 +6,8 @@ build:
     - darwin
     - linux
   goarch:
-    - 386
     - amd64
-  ignore:
-    - goos: darwin
-      goarch: 386
+    - arm64
   flags:
     - -tags=sqlite
 
